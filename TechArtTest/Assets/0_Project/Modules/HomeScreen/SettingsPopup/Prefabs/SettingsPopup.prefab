@@ -117,7 +117,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 77.17002}
+  m_AnchoredPosition: {x: 0, y: 77.17001}
   m_SizeDelta: {x: -60, y: -167.94005}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6521226284845791217
@@ -1274,6 +1274,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 324553442385713690, guid: dc6d0589d74031d4a987127d625e61d7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 24.299988
+      objectReference: {fileID: 0}
     - target: {fileID: 2567810328521760527, guid: dc6d0589d74031d4a987127d625e61d7, type: 3}
       propertyPath: m_PixelsPerUnitMultiplier
       value: 2.5
@@ -1361,6 +1365,10 @@ PrefabInstance:
     - target: {fileID: 5109793330410234097, guid: dc6d0589d74031d4a987127d625e61d7, type: 3}
       propertyPath: m_Name
       value: SettingsPopup
+      objectReference: {fileID: 0}
+    - target: {fileID: 5109793330410234097, guid: dc6d0589d74031d4a987127d625e61d7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9196434923795759048, guid: dc6d0589d74031d4a987127d625e61d7, type: 3}
       propertyPath: m_text

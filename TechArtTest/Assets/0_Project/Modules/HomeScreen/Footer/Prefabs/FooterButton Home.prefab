@@ -33,14 +33,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 327745133514478645, guid: 7ae514bc1e689024fbc6ffed76a3a4c8, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 260
-      objectReference: {fileID: 0}
-    - target: {fileID: 327745133514478645, guid: 7ae514bc1e689024fbc6ffed76a3a4c8, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 290
-      objectReference: {fileID: 0}
-    - target: {fileID: 327745133514478645, guid: 7ae514bc1e689024fbc6ffed76a3a4c8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -90,8 +82,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7009212284804578090, guid: 7ae514bc1e689024fbc6ffed76a3a4c8, type: 3}
       propertyPath: m_Name
-      value: FooterButton (2) Variant
+      value: FooterButton Home
       objectReference: {fileID: 0}
+    - target: {fileID: 8011713479084632158, guid: 7ae514bc1e689024fbc6ffed76a3a4c8, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1dd216aadc6d6b545a9e4314c427c921, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

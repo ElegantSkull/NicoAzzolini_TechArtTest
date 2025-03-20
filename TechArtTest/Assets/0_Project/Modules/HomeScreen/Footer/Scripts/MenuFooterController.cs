@@ -20,6 +20,10 @@ using UnityEngine;
             {
                 OnButtonClickedEvent(startSelected);
             }
+            else
+            {
+                indicator.SetActive(false);
+            }
         }
 
         void OnEnable()
@@ -80,7 +84,7 @@ using UnityEngine;
 
             indicator.SetActive(true);
             indicator.transform.DOKill();
-            indicator.transform.DOMoveX(_currentSlot.transform.position.x, .25f).SetEase(Ease.OutBack).OnComplete(() =>
+            indicator.transform.DOMoveX(_currentSlot.transform.position.x, .25f).SetEase(Ease.OutSine).OnComplete(() =>
             {
                 indicator.transform.position = new Vector3(_currentSlot.transform.position.x,
                                                             indicator.transform.position.y,

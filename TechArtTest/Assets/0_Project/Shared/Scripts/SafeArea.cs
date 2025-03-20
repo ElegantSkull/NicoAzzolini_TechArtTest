@@ -1,7 +1,6 @@
 using UnityEngine;
 
-namespace TechArtTest
-{
+
     /// <summary>
     /// Safe area implementation for notched mobile devices. Usage:
     ///  (1) Add this component to the top level of any GUI panel.
@@ -246,4 +245,4 @@ namespace TechArtTest
             }
         }
     }
-}
+
